@@ -1,0 +1,1079 @@
+
+
+/*==============================
+  ==============================
+* Author Name: NAYAN DAS
+* Author URL: nayandas.com
+* Theme URL: nayandas.com/
+* Skype: 
+* Description: 
+  ==============================
+  ==============================*/
+  
+
+/*==============================
+  ==============================
+* 00: Global CSS;
+* 01: Hearder Section CSS;
+* 02: Banner Section CSS;
+* 03: Social Media Section CSS;
+* 04: Tabs Section CSS;
+* 05: Sub List Section CSS;
+* 06:Standard Picture Section CSS;
+* 07: AWESOME Section CSS;
+* 08: PRICING OPTIONS Section CSS;
+* 09: What Customers Says Section CSS;
+* 10: STYLISH DESIGN Section CSS;
+* 11: Contact Us Section CSS;
+* 12: Footer Section CSS;
+  ==============================
+  ==============================*/
+
+
+/* 00: Global CSS Start */
+
+/*Google Fonts Quicksand Source Sans Pro*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Raleway:300,400,500,600,700,800,900&display=swap');
+
+/* Back To Top Button CSS */
+#button {
+  display: inline-block;
+  background-color: #ff8b38;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333333;
+}
+#button:active {
+  background-color: #333333;
+}
+#button::after {
+  content: "\f093";
+  font-family: FontAwesome;
+  /*font-family: "Font Awesome 5 Pro";*/
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 40px;
+  color: #fff;
+}
+.show{
+  display: inline-block !important;
+}
+button:focus {
+  outline: 0px auto -webkit-focus-ring-color;
+}
+.navbar-toggler {
+    border: 0px solid transparent;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+}
+/* ====================== */
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #86878b;
+  line-height: initial;
+  font-size: 16px;
+  font-weight: 300;
+}
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  margin: 0;
+}
+h1,h3,h4,h5,h6{
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+  margin: 0;
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.4s ease-in-out;
+}
+a:hover{
+  color: #ff8b38;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+  list-style: none;
+  display: inline;
+}
+.text{
+    color: #86878b;
+    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.heading{
+    font-size: 22px;
+    font-weight: 700;
+}
+.custom-btn{
+  height: 45px;
+  width: 170px;
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 0px 0px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  border-radius: 5px;
+  color: #fff;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff0;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+.border {
+    width: 75px;
+    border: 1px solid #ff8b38 !important;
+}
+/* 00: Global CSS END */
+
+
+/* 01: Hearder Section CSS START */
+header {
+    background-color: #1c1c1c;
+}
+.navbar {
+    padding: 20px 0;
+    transition: all 0.4s ease-in-out;
+}
+.scroll-nav{
+  padding: 10px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.fa-align-center{
+  color: #fff;
+}
+.navbar-toggler {
+    font-size: 25px;
+}
+.active{
+  color: #ff8b38;
+}
+/* 01: Hearder Section CSS END */
+
+
+/* 02: Banner Section CSS START */
+.banner{
+  background: linear-gradient(to bottom,rgba(22, 22, 22, 0) 0,rgba(22, 22, 22, 0),#00000066),url(../img/bg/banner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.banner-content{
+    padding-top: 220px;
+    padding-bottom: 200px;
+}
+.banner-content img{
+    padding-bottom: 30px;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 36px;
+    line-height: 45px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+.banner-content .border{
+    margin-bottom: 30px;
+    border: 1px solid #ffffff !important;
+}
+.banner-content .banner-text{
+    padding-bottom: 30px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px;
+}
+.banner-content .banner-btn{
+  transition: all 0.4s ease-in-out;
+}
+.banner-content .banner-btn:hover {
+    color: #fff;
+    background-color: #ff8b38;
+    border-color: #ffffff;
+}
+.banner-contact{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 220px;
+    margin-bottom: 200px;
+}
+.banner-head{
+    background-color: #f5f5f5;
+    border-radius: 5px 5px 0 0;
+}
+.banner-contact-pading{}
+.banner-contact h2{
+    text-align: center;
+    padding: 20px 0;
+}
+.banner-contact h2 span{
+    color: #ff8b38;
+}
+.banner-contact-footer{
+    background-color: #ff8b38;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 65px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.banner-contact-footer:hover {background-color: #333;}
+.banner-contact-footer button{
+    background: transparent;
+    border: 0px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    border-radius: 17 10 17 23;
+}
+.form-banner {
+    margin: 0 auto;
+    width: 85% !important;
+    padding: 30px 10px !important;
+    border-bottom: 1px solid #ced4da !important;
+}
+.form-group {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+/* 02: Banner Section CSS START */
+
+
+/* 03: Social Media Section CSS START */
+.social-media{
+    padding: 20px 0;
+    border-bottom: 1px solid #333333;
+}
+.social-media-heading{}
+.social-media-heading h2{
+    padding-bottom: 5px;
+}
+.social-media-heading p{}
+.social-media-icons{}
+.social-media-icons ul li a{
+    color: #cccccc;
+    font-size: 50px;
+    padding: 0 0 0px 40px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.social-media-icons ul li a:hover {
+    color: #ff8b38;
+}
+.social-media .border{}
+/* 03: Social Media Section CSS END */
+
+
+/* 04: Tabs Section CSS START */
+.tabs{
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+.three-tab{}
+.tab-one{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    padding-top: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 2px;
+}
+.tab-two{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    padding-top: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 2px;
+}
+.tab-three{
+    display: block;
+    background-color: #333333;
+    color: #fff;
+    height: 100px;
+    width: 80%;
+    text-align: center;
+    padding-top: 38px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.tab-two:hover{
+  background-color: #ff8b38;
+}
+.tab-three:hover{
+  background-color: #ff8b38;
+}
+.hover-tab{
+  background-color: #ff8b38;
+}
+.three-tabs-content{}
+.tab-content{
+    text-align: left !important;
+}
+.tab-content h2{
+    padding-bottom: 30px;
+}
+.tab-content p{
+    padding-bottom: 30px;
+}
+.tab-btn{
+    background-color: #ff8b38;
+    border: 0px;
+    transition: all 0.4s ease-in-out
+}
+.tab-btn:hover {
+    background-color: #333333;
+    border: 0px;
+    color: #fff;
+}
+.tab-img {}
+.tab-img img{
+    width: 100%;
+}
+/* 04: Tabs Section CSS END */
+
+
+/* 05: Sub List Section CSS START */
+.sub-list{
+    padding: 100px 0;
+}
+.sub-list-img{
+    padding-top: 62px;
+}
+.sub-list-img img{
+    width: 100%;
+}
+.sub-list-content{}
+.sub-list-content h2{
+    padding-bottom: 30px;
+}
+.sub-list-content .border{}
+.sub-list-content p{
+    padding: 30px 0;
+}
+.list-content-icon{}
+.list-content-detail{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.list-content-detail h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.list-content-detail p{
+    padding: 0;
+    padding-top: 15px;
+}
+.up-icon{
+    border: 2px solid #ff8b38;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    padding-top: 6px;
+    text-align: center;
+}
+.up-icon i{
+  color: #ff8b38;
+}
+.down-icon{
+    border: 2px solid #ff8b38;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    padding-top: 6px;
+    text-align: center;
+}
+.down-icon i{
+  color: #ff8b38;
+  /* transform: translate(8px, 5px); */
+}
+/* 05: Sub List Section CSS END */
+
+
+/* 06:Standard Picture Section CSS START */
+.stander-picture{
+  background-color: #f5f5f5;
+  padding: 100px 0;
+}
+.stander-picture-content{}
+.stander-picture-content h2{
+  padding-bottom: 30px;
+}
+.stander-picture-content .border{}
+.stander-picture-content p{
+  padding: 0;
+  padding-top: 30px;
+}
+.stander-picture-img{
+    padding-top: 54px;
+}
+/* 06:Standard Picture Section CSS END*/
+
+
+/* 07: AWESOME Section CSS START */
+.awesome{
+  padding: 100px 0;
+}
+.awesome-heading{
+    text-align: center;
+}
+.awesome-heading h1{
+    padding-bottom: 30px;
+}
+.awesome-heading .border{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.awesome-heading p{
+    padding-bottom: 80px;
+}
+.awesome-one{
+    text-align: center;
+}
+.awesome-one-icon{
+    border: 2px solid #ff8b38;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    padding-top: 21px;
+    text-align: center;
+}
+.awesome-one h2{
+    padding: 30px 0;
+}
+.awesome-one p{}
+.awesome-one-icon .fa-lightbulb{
+    color: #ff8b38;
+    font-size: 30px;
+}
+.awesome-one-icon .fa-keyboard{
+  color: #ff8b38;
+  font-size: 30px;
+}
+.awesome-one-icon .fa-bolt{
+  color: #ff8b38;
+  font-size: 30px;
+}
+/* 07: AWESOME Section CSS END */
+
+
+/* 08: PRICING OPTIONS Section CSS START */
+.pricing{
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
+.pricing-heading{
+  text-align: center;
+}
+.pricing-heading h1{
+  padding-bottom: 30px;
+}
+.pricing-heading .border{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.pricing-heading p{
+  padding-bottom: 80px;
+}
+.basic{
+    text-align: center;
+}
+.basic-heading{
+    padding: 20px;
+    background-color: #333;
+    border-bottom: 2px solid white;
+}
+.basic-heading h2{
+    color: #fff;
+}
+.basic-amount{
+    background-color: #333;
+    padding: 15px 0;
+    border-bottom: 6px solid #ff8b38;
+}
+.basic-amount h1{
+    color: #fff;
+    font-size: 95px;
+    font-weight: 700;
+}
+.basic-amount span{
+  font-size: 35px;
+}
+.pro-amount span{
+  font-size: 35px;
+}
+.enter-amount span{
+  font-size: 35px;
+}
+.basic-amount p{
+    font-style: italic;
+}
+.basic-options{
+    background-color: #fff;
+}
+.basic-options ul{}
+.basic-list{
+    border-bottom: 1px solid #bfbfbf;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.last-list{
+  border-bottom: 0;
+}
+.populer{
+    background-color: #ff8b38;
+    color: #fff;
+    border-bottom: 0;
+}
+.pro-amount{
+  background-color: #333;
+  padding: 15px 0;
+}
+.pro-amount h1{
+  color: #fff;
+  font-size: 95px;
+  font-weight: 700;
+}
+.pro-amount p{
+  font-style: italic;
+}
+.enter-amount{
+  background-color: #333;
+  padding: 15px 0;
+  border-bottom: 6px solid #ff8b38;
+}
+.enter-amount h1{
+  color: #fff;
+  font-size: 95px;
+  font-weight: 700;
+}
+.enter-amount p{
+  font-style: italic;
+}
+.basic-pading{
+    margin-top: 44px;
+}
+.pro-pading{}
+.enter-pading{
+    margin-top: 44px;
+}
+/* 08: PRICING OPTIONS Section CSS END */
+
+
+/* 09: What Customers Says Section CSS Start */
+.customers-says{
+  padding: 100px 0;
+}
+.customer-say-heading{
+  text-align: center;
+}
+.customer-say-heading h1{
+  padding-bottom: 30px;
+}
+.customer-say-heading .border{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.customer-say-heading p{
+  padding-bottom: 80px;
+}
+.comment-one{}
+.comment-text{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-style: italic;
+    width: 85%;
+    position: relative;
+}
+.comment-text p{}
+.customer-info{
+    padding-top: 30px;
+}
+.comment-text-shape{
+  width: 38px;
+  height: 38px;
+  background-color: whitesmoke;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 27px;
+}
+.customer-info img{}
+.customer-info h2{
+  padding: 10px 0 5px 0;
+ }
+.customer-info p{}
+/* 09: What Customers Says Section CSS End */
+
+
+/* 10: STYLISH DESIGN Section CSS Start */
+.stylish-design{
+  padding: 100px 0;
+  background-image: url(../img/bg/design-bg.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+}
+.stylish-design-heading{
+  text-align: center;
+}
+.stylish-design-heading h1{
+  padding-bottom: 30px;
+  color: #fff;
+}
+.stylish-design-heading .border{
+  border: 1px solid #ff8b38 !important;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.stylish-design-heading p{
+  padding-bottom: 30px;
+}
+.stylish-design-heading .banner-btn:hover {
+    color: #fff;
+    background-color: #ff8b38;
+    border-color: #ffffff;
+}
+/* 10: STYLISH DESIGN Section CSS End */
+
+
+/* 11: Contact Us Section CSS Start */
+.contact-us{
+  padding: 100px 0;
+}
+.contact-us-heading{
+  text-align: center;
+}
+.contact-us-heading h1{
+  padding-bottom: 30px;
+  color: #333;
+}
+.contact-us-heading .border{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.contact-us-heading p{
+  padding-bottom: 30px;
+}
+.form-control {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0;
+  padding: 2px 15px;
+}
+.contact-btn{
+    display: block;
+    margin: 0 auto;
+    background-color: #ff8b38;
+    border: 2px solid #ff8b38;
+    margin-top: 30px;
+}
+.contact-btn:hover{
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #333;
+}
+/* 11: Contact Us Section CSS End */
+
+
+/* 12: Footer Section CSS Start */
+.footer{
+    background-color: #020202;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-sicial{
+  padding-bottom: 10px;
+}
+.footer-sicial a{
+  font-size: 30px;
+  padding: 0 20px;
+  color: #cccccc;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+.footer-sicial a:hover{
+  color: #ff8b38;
+}
+.footer-sicial .fa-facebook-f{}
+.footer-sicial .fa-twitter{}
+.footer-sicial .fa-google-plus-g{}
+.footer-sicial .fa-pinterest-p{}
+.footer-sicial .fa-instagram{}
+.footer-sicial .fa-dropbox{}
+.footer-sicial .fa-rss{}
+/* 12: Footer Section CSS End */
+
+.claint-info{}
+
+
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+
+/*Bellow 1200px )*/
+@media (max-width: 1200px) {
+  .comment-text {
+    width: 100%;
+}
+  .customer-info h2 {
+    padding: 0px 0 0px 0;
+    font-size: 20px;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.banner {
+}
+.social-media-icons {
+  text-align: center;
+}
+.social-media-heading {
+    padding-top: 13px;
+}
+.tab-img {
+    padding-top: 70px;
+}
+.customer-info h2 {
+    font-size: 18px;
+}
+.customer-info p {
+    font-size: 14px;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+.banner-contact {
+}
+.social-media-icons {
+  text-align: center;
+}
+.tab-img {
+    padding-top: 100px;
+}
+.sub-list-img {
+    padding-top: 130px;
+}
+.basic-amount h1,
+.pro-amount h1,
+.enter-amount h1 {
+    font-size: 75px;
+}
+.customer-info h2 {
+    font-size: 18px;
+}
+.customer-info p {
+    font-size: 14px;
+}
+.basic-pading {
+    margin-top: 64px;
+}
+.enter-pading {
+    margin-top: 25px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+.navbar-brand {
+  padding-left: 15px;
+}
+.banner {
+    padding: 80px 0;
+}
+.banner-content {
+    text-align: center;
+}
+.banner-content .border {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.banner-content .banner-btn {
+    margin-bottom: 50px;
+}
+.social-media-heading {
+    text-align: center;
+}
+.social-media-icons ul li a {
+    padding: 0 20px 0px 20px;
+}
+.social-media-icons {
+    text-align: center;
+    padding-top: 30px;
+}
+.tab-one, .tab-two, .tab-three {
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.three-tab {
+    padding-bottom: 30px;
+}
+.tab-content {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.sub-list-img {
+    padding-top: 0;
+}
+.sub-list-content {
+    text-align: center;
+}
+.sub-list-content .border {
+    margin: 0 auto;
+}
+.up-down-icon {
+    margin: 0 auto;
+}
+.list-content-detail {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.list-padding{
+  padding-bottom: 30px;
+}
+.stander-picture-content {
+    text-align: center;
+}
+.stander-picture-content .border {
+    margin: 0 auto;
+}
+.stander-picture-img {
+    padding-top: 50px;
+}
+.awesome-padding{
+  padding-bottom: 50px;
+}
+.pricing-heading p {
+    padding-bottom: 50px;
+}
+.enter {
+    margin-top: 30px;
+}
+.basic-pading {
+    margin-top: 50px;
+}
+.pro-pading {
+    padding-top: 50px;
+}
+.enter-pading {
+    margin-top: 50px;
+}
+.basic-amount h1,
+.pro-amount h1,
+.enter-amount h1 {
+    font-size: 75px;
+}
+.basic-amount span{
+  font-size: 30px;
+}
+.pro-amount span{
+  font-size: 30px;
+}
+.enter-amount span{
+  font-size: 30px;
+}
+.customer-info h2 {
+    font-size: 18px;
+}
+.customer-info p {
+    font-size: 14px;
+}
+.comment-padding{
+  padding-bottom: 50px;
+}
+.claint-info{
+  padding-top: 20px;
+}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #button {
+    opacity: 0.5;
+}
+.navbar-brand {
+  padding-left: 15px;
+}
+.banner-content {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.banner-content .border {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.banner-content .banner-btn {
+    margin-bottom: 50px;
+}
+.banner-contact {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.social-media-heading {
+    text-align: center;
+}
+.social-media-icons ul li a {
+    padding: 0 20px 0px 20px;
+}
+.social-media-icons {
+    text-align: center;
+    padding-top: 30px;
+}
+.tab-one, .tab-two, .tab-three {
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.three-tab {
+    padding-bottom: 30px;
+}
+.tab-content {
+    text-align: center !important;
+    padding-bottom: 50px;
+}
+.sub-list-img {
+    padding-top: 0;
+}
+.sub-list-content {
+    text-align: center;
+}
+.sub-list-content .border {
+    margin: 0 auto;
+}
+.up-down-icon {
+    margin: 0 auto;
+}
+.list-content-detail {
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+.list-padding{
+  padding-bottom: 30px;
+}
+.stander-picture-content {
+    text-align: center;
+}
+.stander-picture-content .border {
+    margin: 0 auto;
+}
+.stander-picture-img {
+    padding-top: 50px;
+}
+.awesome-padding{
+  padding-bottom: 50px;
+}
+.pricing-heading p {
+    padding-bottom: 50px;
+}
+.enter {
+    margin-top: 30px;
+}
+.basic-pading {
+    margin-top: 50px;
+}
+.pro-pading {
+    padding-top: 50px;
+}
+.enter-pading {
+    margin-top: 50px;
+}
+.basic-amount h1,
+.pro-amount h1,
+.enter-amount h1 {
+    font-size: 70px;
+}
+.basic-amount span{
+  font-size: 35px;
+}
+.pro-amount span{
+  font-size: 35px;
+}
+.enter-amount span{
+  font-size: 35px;
+}
+.basic-amount span{
+  font-size: 30px;
+}
+.pro-amount span{
+  font-size: 30px;
+}
+.enter-amount span{
+  font-size: 30px;
+}
+.customer-info h2 {
+    font-size: 18px;
+}
+.customer-info p {
+    font-size: 14px;
+}
+.comment-padding{
+  padding-bottom: 50px;
+}
+.claint-info{
+  padding-top: 20px;
+}
+} 
